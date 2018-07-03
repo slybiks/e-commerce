@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
+
+body {
+    padding-top: 80px;
+}
+.navbar-light .navbar-brand {
+    color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: bisque;
+}
+
+h1{
+    color: black;
+}
+
+.row {
+    color: black;
+}
+
+.col {
+    color : black;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    background-color: transparent;
+}
+
+.card-title {
+    margin-bottom: 0.75rem;
+    color : black;
+}
+
+.card-text:last-child {
+    margin-bottom: 0;
+    color: black;
+}
+
+.list-group-item {
+    background-color: whitesmoke;
+   
+}
